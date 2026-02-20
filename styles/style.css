@@ -1,5 +1,86 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  min-inline-size: 375px;
+  background-image: var(--bg-image-dark);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10px;
+}
+
+.header__rec {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  background-color: transparent;
+  color: #FF0070;
+  border-radius: 30px;
+}
+
+.header__rec::after {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background-color: rgba(255, 0, 112, 1);
+  border-radius: 50%;
+  box-shadow: 0 0 #FF0070;
+}
+
+.header {
+  display: grid;
+  height: 100vh;
+  min-height: 668px;
+  padding-top: 30px;
+}
+
+.header__theme-menu {
+  display: grid;
+  justify-content: end;
+  color:#FF0070;
+}
+
+.header__theme-menu-button {
+  background-color: transparent;
+  border: none;
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid #FF0070;
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid rgba(255, 0, 112, 0.4);
+}
+
+.header__theme-menu-button:focus {
+  border: none;
+  border-bottom: 1px solid rgba(255, 0, 112, 1);
+}
+
+.header__theme-menu-button:focus-visible {
+  border: 2px solid rgb(255, 255, 255);
+  outline: 2px solid rgb(255, 0, 0);
+}
+
+.header__title {
+  min-width: 355px;
+  color: #DB00FF;
+  text-shadow: 5px 5px #FF0070;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  text-wrap: wrap;
+  line-height: 0.85;
+}
+
+.header__description {
+  width: 355px;
+  height: 117px;
+  background-color: #FF0070;
+  color: #000028;
+  font-size: 18px;
+  font-weight: bold;
+  text-wrap: wrap;
+  justify-self: end;
 }

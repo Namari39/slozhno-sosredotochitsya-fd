@@ -1,4 +1,4 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --bg-image-dark: url(../images/cover-image-dark.png);
+  --bg-image-light: url(../images/cover-image-light.png);
+}
