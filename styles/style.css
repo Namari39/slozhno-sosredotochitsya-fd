@@ -10,8 +10,8 @@
 
 .header__rec {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 12px;
+  right: 19px;
   z-index: 10;
   background-color: transparent;
   color: #FF0070;
@@ -25,7 +25,8 @@
   height: 9px;
   background-color: #FF0070;
   border-radius: 50%;
-  box-shadow: 0 0 4px 2px #FF0070;
+  box-shadow: 0 0 4px 2px #FF0070;  
+  margin-left: 4px;
 }
 
 .header {
@@ -84,7 +85,7 @@
   text-wrap: wrap;
   line-height: 0.83;
   padding-left: 10px;
-  padding-top: 9px;
+  padding-top: 12px;
 }
 
 .header__description {
@@ -97,7 +98,7 @@
   text-wrap: wrap;
   justify-self: end;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .decorated-zone {
