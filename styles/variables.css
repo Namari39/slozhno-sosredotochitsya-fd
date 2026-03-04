@@ -1,5 +1,19 @@
 :root {
-  --bg-image-dark: url(../images/cover-image-dark.png);
-  --bg-image-light: url(../images/cover-image-light.png);
-  --accent-color: #FF0070;
+  --font-size-base: 18px;
+  --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --line-height-title: 0.83;
+  --line-height-text: 23.4px;
+
+  --size-page-min: 375px;
+  --size-header-min-height: 668px;
+  --size-menu-min-width: 70px;
+  --size-corner-decor: 25px;
+  --size-rec-dot: 9px;
+
+  --border-radius-rec: 30px;
+  --border-radius-dot: 50%;
 }
