@@ -1,19 +1,20 @@
 :root {
+  /*Типографика*/
   --font-size-base: 18px;
   --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-
   --font-weight-regular: 400;
   --font-weight-bold: 700;
-
   --line-height-title: 0.83;
   --line-height-text: 23.4px;
-
+/*Размеры*/
   --size-page-min: 375px;
   --size-header-min-height: 668px;
   --size-menu-min-width: 70px;
   --size-corner-decor: 25px;
   --size-rec-dot: 9px;
-
+/*Границы*/
   --border-radius-rec: 30px;
   --border-radius-dot: 50%;
+  --border-lacation-top: 12px;
+  --border-location-right: 19px;
 }

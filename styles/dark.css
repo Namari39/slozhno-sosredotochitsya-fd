@@ -5,14 +5,20 @@
 */
 
 :root.theme-dark {
-  --accent-color: #FF0070;
-  --accent-color-border: rgba(255, 0, 112, 0.4);
-
+  /*Цвет декор элементов*/
+  --decorated-color: #FF0070;
+  --decorated-color-border: rgba(255, 0, 112, 0.4);
+  /*Фон страницы*/
   --bg-image: url(../images/cover-image-dark.png);
-
+  /*Цвет заголовка*/
   --color-title: #DB00FF;
   --color-title-shadow: #FF0070;
-
-  --text-main-description: #F1B2CE;
   --text-description: #000028;
+  --header-background-title-description: #FF0070;
+  /*Основные цвета*/
+  --main-title-color: #000028;
+  --main-title-background: #FF0070;
+  --text-main-description: #F1B2CE;
+  
+  --border-buttom-focus: 1px solid rgba(255, 0, 112, 1);
 }
