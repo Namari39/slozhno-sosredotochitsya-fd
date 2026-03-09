@@ -5,5 +5,51 @@
 */
 
 :root.theme-light {
+  /*Цвет декор элементов*/
+  --decorated-color: #353430;
+  --decorated-color-border: rgba(50, 49, 45, 0.4);
+  /*Фон страницы*/
   --bg-image: url(../images/cover-image-light.png);
+  /*Цвет заголовка*/
+  --color-title: #FFC2E6;
+  --color-title-shadow: #FF8DCB;
+  --color-text-description: #353430;
+  --background-color-title-description: #FF8DCB;
+  --color-decorated-border: rgba(50, 49, 45, 0.4);
+  --border-buttom-focus: 1px solid rgba(53, 52, 48, 1);
+  /*Основные цвета контента*/
+  --color-main-title: #353430;
+  --color-mine-subtitle: #353430;
+  --color-main-description-text: #353430;
+  --color-main-title-background: #FF8DCB;
+}
+
+:root.theme-light .header__rec {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /*Цвет декор элементов*/
+    --decorated-color: #353430;
+    --decorated-color-border: rgba(50, 49, 45, 0.4);
+    /*Фон страницы*/
+    --bg-image: url(../images/cover-image-light.png);
+    /*Цвет заголовка*/
+    --color-title: #FFC2E6;
+    --color-title-shadow: #FF8DCB;
+    --color-text-description: #353430;
+    --background-color-title-description: #FF8DCB;
+    --color-decorated-border: rgba(50, 49, 45, 0.4);
+    --border-buttom-focus: 1px solid rgba(53, 52, 48, 1);
+    /*Основные цвета контента*/
+    --color-main-title: #353430;
+    --color-mine-subtitle: #353430;
+    --color-main-description-text: #353430;
+    --color-main-title-background: #FF8DCB;
+  }
+
+  .header__rec {
+    display: none;
+  }
 }

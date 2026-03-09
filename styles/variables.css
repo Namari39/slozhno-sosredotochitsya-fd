@@ -1,7 +1,7 @@
 :root {
   /*Типографика*/
   --font-size-base: 18px;
-  --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-size-title: clamp(9.8125rem, 3.1971rem + 10.3365vw, 12.5rem);
   --font-weight-regular: 400;
   --font-weight-bold: 700;
   --line-height-title: 0.83;
@@ -17,4 +17,6 @@
   --border-radius-dot: 50%;
   --border-lacation-top: 12px;
   --border-location-right: 19px;
+  /*Отступы*/
+  --margin-decorated-zone: 10px;
 }

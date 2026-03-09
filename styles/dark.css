@@ -13,12 +13,17 @@
   /*Цвет заголовка*/
   --color-title: #DB00FF;
   --color-title-shadow: #FF0070;
-  --text-description: #000028;
-  --header-background-title-description: #FF0070;
-  /*Основные цвета*/
-  --main-title-color: #000028;
-  --main-title-background: #FF0070;
-  --text-main-description: #F1B2CE;
-  
+  --color-text-description: #000028;
+  --background-color-title-description: #FF0070;
+  --color-decorated-border: rgba(255, 0, 112, 1);
   --border-buttom-focus: 1px solid rgba(255, 0, 112, 1);
+  /*Основные цвета контента*/
+  --color-main-title: #FF0070;
+  --color-mine-subtitle: #000028;
+  --color-main-title-background: #FF0070;
+  --color-main-description-text: #F1B2CE;
+}
+
+:root.theme-dark .header__rec {
+  display: block;
 }
