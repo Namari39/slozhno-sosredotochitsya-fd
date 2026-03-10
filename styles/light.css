@@ -6,8 +6,8 @@
 
 :root.theme-light {
   /*Цвет декор элементов*/
-  --decorated-color: #353430;
-  --decorated-color-border: rgba(50, 49, 45, 0.4);
+  --color-accent: #353430;
+  --color-accent-muted: rgba(50, 49, 45, 0.4);
   /*Фон страницы*/
   --bg-image: url(../images/cover-image-light.png);
   /*Цвет заголовка*/
@@ -34,8 +34,8 @@
 @media (prefers-color-scheme: light) {
   :root {
     /*Цвет декор элементов*/
-    --decorated-color: #353430;
-    --decorated-color-border: rgba(50, 49, 45, 0.4);
+    --color-accent: #353430;
+    --color-accent-muted: rgba(50, 49, 45, 0.4);
     /*Фон страницы*/
     --bg-image: url(../images/cover-image-light.png);
     /*Цвет заголовка*/

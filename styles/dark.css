@@ -5,8 +5,8 @@
 */
 :root.theme-dark {
   /*Цвет декор элементов*/
-  --decorated-color: #FF0070;
-  --decorated-color-border: rgba(255, 0, 112, 0.4);
+  --color-accent: #FF0070;
+  --color-accent-muted: rgba(255, 0, 112, 0.4);
   /*Фон страницы*/
   --bg-image: url(../images/cover-image-dark.png);
   /*Цвет заголовка*/
