@@ -102,8 +102,8 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border: 2px solid rgb(255, 255, 255);
-  outline: 2px solid rgb(255, 0, 0);
+  border: 2px solid var(--color-focus-visible-border);
+  outline: 2px solid var(--color-focus-visible-outline);
 }
 
 .header__title {
@@ -172,6 +172,20 @@
 .text__link {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--color-title-shadow);
+}
+
+
+.text__link:hover {
+  text-decoration: underline;
+}
+
+.text__link:focus {
+  border: 1px solid var(--color-main-links);;
+}
+
+.text__link:focus-visible {
+  border: 2px solid var(--color-focus-visible-border);
+  outline: 2px solid var(--color-focus-visible-outline);
 }
 
 .main__content-title-card {

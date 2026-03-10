@@ -22,6 +22,9 @@
   --color-mine-subtitle: #353430;
   --color-main-description-text: #353430;
   --color-main-title-background: #FF8DCB;
+  --color-main-links: rgba(50, 49, 45, 0.4);
+  --color-focus-visible-border: #F1B2CE;
+  --color-focus-visible-outline: #353430;
 }
 
 :root.theme-light .header__rec {

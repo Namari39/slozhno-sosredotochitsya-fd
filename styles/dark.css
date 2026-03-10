@@ -3,7 +3,6 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 :root.theme-dark {
   /*Цвет декор элементов*/
   --decorated-color: #FF0070;
@@ -22,6 +21,9 @@
   --color-mine-subtitle: #000028;
   --color-main-title-background: #FF0070;
   --color-main-description-text: #F1B2CE;
+  --color-main-links: #F1B2CE;
+  --color-focus-visible-border: #F1B2CE;
+  --color-focus-visible-outline: #FF0070;
 }
 
 :root.theme-dark .header__rec {
