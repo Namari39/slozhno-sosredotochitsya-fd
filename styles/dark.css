@@ -14,7 +14,7 @@
   --color-title-shadow: #FF0070;
   --color-text-description: #000028;
   --background-color-title-description: #FF0070;
-  --color-decorated-border: rgba(255, 0, 112, 1);
+  --color-decorated-border: #F1B2CE;
   --border-buttom-focus: 1px solid rgba(255, 0, 112, 1);
   /*Основные цвета контента*/
   --color-main-title: #FF0070;
@@ -23,7 +23,6 @@
   --color-main-description-text: #F1B2CE;
   --color-main-links: #F1B2CE;
   --color-focus-visible-border: #F1B2CE;
-  --color-focus-visible-outline: #FF0070;
 }
 
 :root.theme-dark .header__rec {

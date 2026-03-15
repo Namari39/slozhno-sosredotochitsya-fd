@@ -15,7 +15,7 @@
   --color-title-shadow: #FF8DCB;
   --color-text-description: #353430;
   --background-color-title-description: #FF8DCB;
-  --color-decorated-border: rgba(50, 49, 45, 0.4);
+  --color-decorated-border: #353430;
   --border-buttom-focus: 1px solid rgba(53, 52, 48, 1);
   /*Основные цвета контента*/
   --color-main-title: #353430;
@@ -23,8 +23,7 @@
   --color-main-description-text: #353430;
   --color-main-title-background: #FF8DCB;
   --color-main-links: rgba(50, 49, 45, 0.4);
-  --color-focus-visible-border: #F1B2CE;
-  --color-focus-visible-outline: #353430;
+  --color-focus-visible-border: #353430;
 }
 
 :root.theme-light .header__rec {
@@ -43,13 +42,15 @@
     --color-title-shadow: #FF8DCB;
     --color-text-description: #353430;
     --background-color-title-description: #FF8DCB;
-    --color-decorated-border: rgba(50, 49, 45, 0.4);
+    --color-decorated-border: #353430;
     --border-buttom-focus: 1px solid rgba(53, 52, 48, 1);
     /*Основные цвета контента*/
     --color-main-title: #353430;
     --color-mine-subtitle: #353430;
     --color-main-description-text: #353430;
     --color-main-title-background: #FF8DCB;
+      --color-main-links: rgba(50, 49, 45, 0.4);
+    --color-focus-visible-border: #353430;
   }
 
   .header__rec {
