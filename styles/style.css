@@ -188,7 +188,6 @@
   background-color: var(--color-main-title-background);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
-  height: min-content;
 }
 
 .main__content-text-regular {
@@ -308,7 +307,7 @@
     margin-block-start: 28px;
   }
 
-  .content__images-title {
+  .image__title {
     grid-area: title;
   }
 
@@ -382,7 +381,6 @@
 
   .main__content-center .main__title {
     grid-column: 1/-1;
-    grid-row: 1;
   }
 
   .main__content-center .main__content-card {

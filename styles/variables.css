@@ -20,8 +20,8 @@
   /*Отступы*/
   --margin-decorated-zone: 10px;
   /*Цвет декор элементов*/
-  --decorated-color: #FF0070;
-  --decorated-color-border: rgba(255, 0, 112, 0.4);
+  --color-accent: #FF0070;
+  --color-accent-muted: rgba(255, 0, 112, 0.4);
   /*Фон страницы*/
   --bg-image: url(../images/cover-image-dark.png);
   /*Цвет заголовка*/
@@ -29,7 +29,7 @@
   --color-title-shadow: #FF0070;
   --color-text-description: #000028;
   --background-color-title-description: #FF0070;
-  --color-decorated-border: rgba(255, 0, 112, 1);
+  --color-decorated-border: #F1B2CE;
   --border-buttom-focus: 1px solid rgba(255, 0, 112, 1);
   /*Основные цвета контента*/
   --color-main-title: #FF0070;
@@ -38,5 +38,4 @@
   --color-main-description-text: #F1B2CE;
   --color-main-links: #F1B2CE;
   --color-focus-visible-border: #F1B2CE;
-  --color-focus-visible-outline: #FF0070;
 }
